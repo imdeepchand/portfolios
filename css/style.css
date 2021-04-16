@@ -462,7 +462,7 @@ h3 {
     padding-top: 10px;
 }
 
-.copy h4 {
+.copy h5 {
     text-align: center;
     letter-spacing: 3px;
     word-spacing: 5px;
@@ -572,7 +572,7 @@ h3 {
     }
     /* skill end */
     /* footer */
-    .copy h4 {
+    .copy h5 {
         font-size: 16px;
         padding: 5px 0;
     }
