@@ -8,9 +8,9 @@
 }
 
  :root {
-    --bgcolor: #f7f1d6;
-    --fcolor: #fd8641;
-    --pfont: #9c4d02;
+    --bgcolor: #fff;
+    --fcolor: #000;
+    --pfont: #444343;
     --bgfooter: #002116;
 }
 
@@ -60,7 +60,7 @@ h1,
 p {
     width: 100%;
     text-align: center;
-    color: var(--fcolor);
+    color: #ffa704;
     margin: 5px;
 }
 
@@ -70,6 +70,7 @@ p {
 
 .label p {
     font-size: 26px;
+    color: #c5c353;
 }
 
 .s1 {
@@ -101,6 +102,7 @@ p {
 main {
     width: 100%;
     background-color: var(--bgcolor);
+    margin-bottom: 20px;
 }
 
 
@@ -150,7 +152,7 @@ section a {
 
 section a:hover {
     text-shadow: 0 2px 4px black;
-    color: #f87463;
+    color: #fd2306;
 }
 
 nav .btn-toggle {
@@ -223,6 +225,17 @@ nav .btn-toggle {
 
 
 /* --------navbar--------------- */
+
+
+/* horigontal line */
+
+.hr-line {
+    margin: 0 auto;
+    width: 250px;
+    height: 2px;
+    box-shadow: 0 0 3px #000;
+    background-color: var(--fcolor);
+}
 
 
 /* --------------------------about----------------------- */
@@ -430,7 +443,7 @@ h3 {
     height: 600px;
     border-radius: 10px;
     box-shadow: 0 0 5px #000;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .on {
@@ -486,7 +499,7 @@ h3 {
 }
 
 .btn:hover {
-    background-color: #fcfcfc3a;
+    background-color: #fcfcfc5e;
     box-shadow: 0 0 10px #00000081;
 }
 
