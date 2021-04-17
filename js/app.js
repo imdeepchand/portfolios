@@ -1,3 +1,10 @@
+// --------------------preload--------------------
+
+const pre = document.getElementById('preload');
+
+function preload() {
+    pre.style.display = 'none';
+}
 // --------------------Image slider --------------
 const s1 = document.querySelector('.s1');
 const s2 = document.querySelector('.s2');
