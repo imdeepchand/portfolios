@@ -7,18 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@dc_dew</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preload.css">
     <script type="text/javascript" src="https://kit.fontawesome.com/d0974d0f92.js" crossorigin="anonymous"></script>
 </head>
 
-<body onload="preload()">
+<body>
 
-    <div id="preload"></div>
+    <div class="container-pre" id="preload">
+        <div class="main">
+            <div class="circle c-1"></div>
+            <div class="circle c-2"></div>
+            <div class="circle c-3"></div>
+            <div class="circle c-4"></div>
+            <div class="circle c-5"></div>
+            <div class="circle c-6"></div>
+        </div>
+    </div>
     <div class="container">
         <div class="slide s1 bgactive"></div>
         <div class="slide s2"></div>
         <div class="label">
             <h1 style="padding:0; margin:0;">Welcome</h1>
-            <p class="ex-skill">I am @dc_dew.</p>
+            <p class="ex-skill" id="text"></p>
         </div>
     </div>
     <main>
@@ -98,6 +108,7 @@
     </main>
     <!-- gallery -->
     <div class="hr-line"></div>
+
     <div class="container" id="gallery">
         <h3>Gallery</h3>
         <p class="ex-skill">"below are the some pictures that clicked by me"</p>
@@ -117,9 +128,8 @@
             <img src="https://images.unsplash.com/photo-1618582930591-96266f11b901?ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
         </div>
     </div>
-
     <!-- gallery end -->
-
+    <!-- </main> -->
 
     <!-- Footer -->
     <div class="footer" id="contact">

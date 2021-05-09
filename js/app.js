@@ -1,10 +1,10 @@
 // --------------------preload--------------------
 
 const pre = document.getElementById('preload');
+setTimeout(function preload() {
+    pre.classList.add('loader');
+}, 3000)
 
-function preload() {
-    pre.style.display = 'none';
-}
 // --------------------Image slider --------------
 const s1 = document.querySelector('.s1');
 const s2 = document.querySelector('.s2');
@@ -24,6 +24,26 @@ function bgChange() {
 }
 
 bg();
+
+//Auto text Efect
+const textEl = document.getElementById('text')
+const text = 'I am @dc_dew.'
+let idx = 1
+let speed = 300
+writeText()
+
+function writeText() {
+    textEl.innerText = text.slice(0, idx)
+
+    idx++
+
+    if (idx > text.length) {
+        idx = 1
+    }
+
+    setTimeout(writeText, speed)
+}
+
 
 // --------------------------Image slider end-----------
 
