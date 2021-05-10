@@ -10,7 +10,7 @@
 }
 
 .loader {
-    display: noe;
+    display: none;
     z-index: -3;
 }
 

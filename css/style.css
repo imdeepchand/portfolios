@@ -806,3 +806,101 @@ h3 {
         border-radius: 10px;
     }
 }
+
+
+/* screen size 768px */
+
+@media (max-width: 768px) {
+    /* navbar */
+    main {
+        width: 100%;
+    }
+    .menu-btn {
+        display: inline-block;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav section {
+        flex-direction: column;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    section a {
+        display: block;
+        border: none;
+    }
+    nav section.active {
+        display: block;
+    }
+    /* navbar end */
+    h3,
+    h4,
+    p {
+        letter-spacing: 1px;
+    }
+    h3,
+    h4 {
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-shadow: 0 2px 4px #000;
+        letter-spacing: 2px;
+        white-space: nowrap;
+    }
+    /* about */
+    .about {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .img {
+        width: 100%;
+    }
+    .para {
+        width: 100%;
+    }
+    .para p {
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 0;
+    }
+    /* about end */
+    /* skill */
+    .progress {
+        font-size: 16px;
+    }
+    /* skill end */
+    /* gallery */
+    .img-1 img,
+    .img-2 img,
+    .img-3 img,
+    .img-4 img,
+    .img-5 img {
+        width: 90%;
+        height: 70%;
+        border-radius: 10px;
+        box-shadow: 0 0 5px #000;
+    }
+    /* gallery end */
+    /* footer */
+    .copy h5 {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .social {
+        word-spacing: 5px;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    .social .f-design {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .btn-a {
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+}
